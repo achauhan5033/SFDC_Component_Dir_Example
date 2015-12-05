@@ -2,9 +2,11 @@
 public class SampleDeployClass {
 
     public static testmethod void t1() {
-		//hello git from SFDC
-		helloMethod();
 
+	//hello git from SFDC
+	helloMethod();
+
+	//hello again, this time for PRJ400
         Account acc = new Account(Name= 'fred');
         insert acc; // hit the trigger
 
