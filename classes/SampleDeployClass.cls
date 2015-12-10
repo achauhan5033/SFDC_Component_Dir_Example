@@ -17,6 +17,8 @@ public class SampleDeployClass {
         return 'SamplePhone#';
     }
     
+	// my change
+	
     public static void helloMethod() {
         System.debug('Hello World');
     }
