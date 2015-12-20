@@ -14,11 +14,14 @@ public class SampleDeployClass {
         Account retAcc = [select id, phone from Account where id=:acc.id][0];
         System.assertEquals(getPhone(), retAcc.phone);
     }
-
+	// more changes
     public static String getPhone() {
         return 'SamplePhone#';
     }
     
+	// my change
+	// one more change
+	
     public static void helloMethod() {
         System.debug('Hello World');
     }
