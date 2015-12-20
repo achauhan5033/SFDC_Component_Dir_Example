@@ -23,6 +23,7 @@ public class SampleDeployClass {
 	// one more change
 	
 	// Dev2 change
+	// Dev2 another change
 	
     public static void helloMethod() {
         System.debug('Hello World');
