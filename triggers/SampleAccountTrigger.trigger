@@ -10,6 +10,7 @@ trigger SampleAccountTrigger on Account bulk (before insert) {
 	// Dev3 another one
 	// One more
 	// One more comment here
+	// Here's another demo comment
 	
 	for (Integer i = 0; i < Trigger.new.size(); i++) {
         Account acct = System.Trigger.new[i];
