@@ -9,6 +9,8 @@ trigger SampleAccountTrigger on Account bulk (before insert) {
 	// Dev3 here's another comment
 	// Dev3 another one
 	// One more
+	// One more comment here
+	
 	for (Integer i = 0; i < Trigger.new.size(); i++) {
         Account acct = System.Trigger.new[i];
         acct.phone = SampleDeployClass.getPhone();

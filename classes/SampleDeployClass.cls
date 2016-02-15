@@ -32,6 +32,7 @@ public class SampleDeployClass {
 	// Dev3 is adding another comment
 	// Dev3 here's another comment
 	// Comment again
+	// Here's another comment
 	
     public static void helloMethod() {
         System.debug('Hello World');
